@@ -45,3 +45,24 @@
   font-size: 18px;
   font-size: 400;
 }
+.counter-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px){
+  .counter-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+  .all-counts {
+    color: #475569;
+    font-size: 18px;
+    font-size: 400;
+    margin-right: 20px;
+}
+
